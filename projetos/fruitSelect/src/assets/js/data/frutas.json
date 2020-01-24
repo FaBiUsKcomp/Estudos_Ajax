@@ -1,0 +1,247 @@
+[
+    {
+        "grupo": "a",
+        "nome": "abacate",
+        "regiao": "América Central"
+    },
+    {
+        "grupo": "a",
+        "nome": "abacaxi",
+        "regiao": "América do Sul"
+    },
+    {
+        "grupo": "a",
+        "nome": "açai",
+        "regiao": "América Central"
+    },
+    {
+        "grupo": "a",
+        "nome": "acerola",
+        "regiao": "América Central"
+    },
+    {
+        "grupo": "a",
+        "nome": "amora",
+        "regiao": "China/Japão"
+    },
+    {
+        "grupo": "a",
+        "nome": "araticum",
+        "regiao": "Cerrado Brasileiro"
+    },
+    {
+        "grupo": "b",
+        "nome": "bacaba",
+        "regiao": "Amazônia"
+    },
+    {
+        "grupo": "b",
+        "nome": "banana",
+        "regiao": "Ásia"
+    },
+    {
+        "grupo": "b",
+        "nome": "biriba",
+        "regiao": "Amazônia"
+    },
+    {
+        "grupo": "c",
+        "nome": "cacau",
+        "regiao": "Amazônia"
+    },
+    {
+        "grupo": "c",
+        "nome": "caja",
+        "regiao": "Nordeste do Brasil"
+    },
+    {
+        "grupo": "c",
+        "nome": "caqui",
+        "regiao": "China"
+    },
+    {
+        "grupo": "c",
+        "nome": "carambola",
+        "regiao": "Sudeste da Ásia"
+    },
+    {
+        "grupo": "c",
+        "nome": "cereja",
+        "regiao": "Ásia"
+    },
+    {
+        "grupo": "c",
+        "nome": "coco",
+        "regiao": "Sudeste da Ásia"
+    },
+    {
+        "grupo": "c",
+        "nome": "cupuacu",
+        "regiao": "Amazônia"
+    },
+    {
+        "grupo": "f",
+        "nome": "figo",
+        "regiao": "Todos"
+    },
+    {
+        "grupo": "f",
+        "nome": "framboesa",
+        "regiao": "Europa"
+    },
+    {
+        "grupo": "g",
+        "nome": "goiaba",
+        "regiao": "América Central"
+    },
+    {
+        "grupo": "g",
+        "nome": "groselha",
+        "regiao": "Europa/Ásia"
+    },
+    {
+        "grupo": "i",
+        "nome": "inga",
+        "regiao": "Amazônia"
+    },
+    {
+        "grupo": "j",
+        "nome": "jabuticaba",
+        "regiao": "Mata Atlântica (Brasil)"
+    },
+    {
+        "grupo": "j",
+        "nome": "jaca",
+        "regiao": "Ásia"
+    },
+    {
+        "grupo": "j",
+        "nome": "jambo",
+        "regiao": "Ásia"
+    },
+    {
+        "grupo": "j",
+        "nome": "jenipapo",
+        "regiao": "América Tropical e Índia"
+    },
+    {
+        "grupo": "k",
+        "nome": "kiwi",
+        "regiao": "China"
+    },
+    {
+        "grupo": "l",
+        "nome": "laranja",
+        "regiao": "China"
+    },
+    {
+        "grupo": "l",
+        "nome": "limao",
+        "regiao": "Ásia"
+    },
+    {
+        "grupo": "m",
+        "nome": "maca",
+        "regiao": "Ásia/Europa"
+    },
+    {
+        "grupo": "m",
+        "nome": "mamao",
+        "regiao": "América Central"
+    },
+    {
+        "grupo": "m",
+        "nome": "manga",
+        "regiao": "Índia"
+    },
+    {
+        "grupo": "m",
+        "nome": "mangaba",
+        "regiao": "Cerrado Brasileiro"
+    },
+    {
+        "grupo": "m",
+        "nome": "maracuja",
+        "regiao": "América Tropical"
+    },
+    {
+        "grupo": "m",
+        "nome": "melancia",
+        "regiao": "África"
+    },
+    {
+        "grupo": "m",
+        "nome": "melao",
+        "regiao": "África"
+    },
+    {
+        "grupo": "m",
+        "nome": "morango",
+        "regiao": "Europa"
+    },
+    {
+        "grupo": "p",
+        "nome": "pequi",
+        "regiao": "Cerrado Brasileiro"
+    },
+    {
+        "grupo": "p",
+        "nome": "pera",
+        "regiao": "Europa/Ásia"
+    },
+    {
+        "grupo": "p",
+        "nome": "pessego",
+        "regiao": "China"
+    },
+    {
+        "grupo": "p",
+        "nome": "pitanga",
+        "regiao": "Mata Atlântica (Brasil)"
+    },
+    {
+        "grupo": "p",
+        "nome": "pitaya",
+        "regiao": "América Tropical"
+    },
+    {
+        "grupo": "p",
+        "nome": "pupunha",
+        "regiao": "Amazônia"
+    },
+    {
+        "grupo": "r",
+        "nome": "roma",
+        "regiao": "Ásia"
+    },
+    {
+        "grupo": "s",
+        "nome": "siriguela",
+        "regiao": "América Central"
+    },
+    {
+        "grupo": "t",
+        "nome": "tamara",
+        "regiao": "Oriente Médio"
+    },
+    {
+        "grupo": "t",
+        "nome": "tamarindo",
+        "regiao": "África/Índia"
+    },
+    {
+        "grupo": "t",
+        "nome": "tangerina",
+        "regiao": "Ásia"
+    },
+    {
+        "grupo": "t",
+        "nome": "tucuma",
+        "regiao": "Amazônia"
+    },
+    {
+        "grupo": "u",
+        "nome": "uva",
+        "regiao": "Ásia"
+    }
+]
