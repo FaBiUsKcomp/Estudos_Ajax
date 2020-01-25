@@ -25,6 +25,38 @@
     </nav>
     <div class="pagina"></div>
     <script>
-        // ...
+        //Iremos ejetar HTML dentro da div pagina
+        function navegarViaAjax(url, seletor, push = true) {
+            if(!url || !seletor) return
+            const elemento = document.querySelector(seletor)
+            fetch(url)
+                .then(resp => resp.text()) //Iremos pegar dados em HTML
+                .then(html => {
+                    elemento.innerHTML = html
+                    //Para mudar a url de acordo com a pagina
+                    if(push) {
+                        //Params => estado, titulo, url que ficará no histórico
+                        history.pushState({ seletor }, null, url)
+                    }
+                })
+        }
+        
+        document.querySelectorAll('[wm-link]').forEach(link => {
+            const url = link.attributes['wm-link'].value
+            const seletorDestino = link.attributes['wm-destino'].value
+
+            link.onclick = e => {
+                e.preventDefault()
+                navegarViaAjax(url, seletorDestino)
+            }
+        })
+
+        //Quando a pilha de estados der um pop
+        window.onpopstate = e => {
+            if(e.state) {
+                //Vai voltando os estados que foram passados alterando a URL
+                navegarViaAjax(window.location.href, e.state.seletor, false)
+            }
+        }
     </script>
 </body>

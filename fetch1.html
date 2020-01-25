@@ -11,6 +11,15 @@
     <h1>Estados</h1>
 
     <script>
-        // ...
+        //Uma forma mais simples de trabalhar com AJAX mais simples que XMLHTTPRequest
+        const url = 'dados/estados.json'
+        fetch(url) //Chamando o Fetch (retorna uma promisse)
+            .then(resp => resp.json()) //Faz a ligação
+            .then(estados => { //Busca os arquivos
+                const itens = estados.reduce( //Já tras um array de objetos convertido
+                    (html, estado) => html + `<li>${estado.nome}</li>`, ''
+                )
+                document.body.insertAdjacentHTML('beforeend', `<ul>${itens}</ul>`)
+            })
     </script>
 </body>

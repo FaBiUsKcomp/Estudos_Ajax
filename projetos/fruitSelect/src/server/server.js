@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true })) //Decodificando todas as requ
 app.use(bodyParser.json())//Caso venha algum arquivo .json na requisição, esse ira atender
 
 //Funcionalidades
-app.get((req, res) => {
+app.get("/frutas", (req, res) => {
     res.send(controle.fruitData())
 })
 

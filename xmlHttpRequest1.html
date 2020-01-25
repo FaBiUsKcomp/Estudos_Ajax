@@ -11,6 +11,7 @@
     <h1>Estados</h1>
 
     <script>
+        ///Faz requisições AJAX (Temos o FATCH e o AXIOS que são mais atuais)
         function ajax(config) { //O parametro é um objeto com todas as informações da req
             const xhr = new XMLHttpRequest() //Assincrona
             xhr.open(config.metodo, config.url, true) //Abrindo requisição do tipo GET

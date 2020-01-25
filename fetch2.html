@@ -29,6 +29,37 @@
     </form>
     <div id="resultado"></div>
     <script>
-        // ...
+        document.usuarioForm.onsubmit = async e => {
+            e.preventDefault() //Para o comportamento padrão do SUBMIT
+
+            const form = e.target
+            const data = new FormData(form)
+            data.append('ajax', true) //Podemos adicionar novos alementos no form
+
+            const options = {
+                method: form.method, //Metodo do formulario
+                body: new URLSearchParams(data) //Passa os dados para o corpo (todos os dados)
+            }
+
+            const resultado = document.getElementById('resultado')
+            //Passando a URL que será disparada no Back, opções (personalizar)
+            /*fetch(form.action, options) //Retorna uma Promise
+                .then(resp => resp.json())
+                .then(json => {
+                    resultado.innerHTML = JSON.stringify(json)
+                })
+                .catch(e => {
+                    resultado.innerHTML = e
+                })*/
+
+            //Fazendo o mesmo exemplo com async/await
+            try {
+                const resp = await fetch(form.action, options)
+                const json = await resp.json()
+                resultado.innerHTML = JSON.stringify(json)
+            } catch(e) {
+                resultado.innerHTML = e
+            }
+        }
     </script>
 </body>

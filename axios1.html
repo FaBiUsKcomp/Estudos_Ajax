@@ -12,6 +12,14 @@
     <h1>Estados</h1>
 
     <script>
-        // ...
+        // Iremos fazer a mesma coisa que fizemos com XMLHTTPRequest e FETCH
+        const url = 'dados/estados.json'
+        axios(url).then(resp => { //Diferente do Fatch, o Axios ja tem a resposta no primeiro then (.data)
+            console.log(resp.data)
+            const itens = resp.data.reduce( //Já possui um array como resposta
+                (html, estado) => html + `<li>${estado.nome}</li>`, ''
+            )
+            document.body.insertAdjacentHTML('beforeend', `<ul>${itens}</ul>`)
+        })
     </script>
 </body>

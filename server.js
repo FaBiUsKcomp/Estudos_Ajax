@@ -32,6 +32,23 @@ app.post('/upload', (req, res) => { //Sera chamada via Post
 
         res.end('Concluido com sucesso.')
     })
-}) 
+})
 
-app.listen(8080, () => console.log('Executando...'))
+app.post('/formulario', (req, res) => {
+    res.send({
+        ...req.body,
+        id: 1
+    })
+})
+
+app.get('/parOuImpar', (req, res) => {
+    //req.body
+    //req.query
+    //req.params
+    const numero = parseInt(req.query.numero) % 2 === 0
+    res.send({
+        resultado: numero ? 'par' : 'impar'
+    })
+})
+
+app.listen(8080, () => console.log(`Executando... na Porta ${8080}`))
